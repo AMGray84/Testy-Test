@@ -1,115 +1,30 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="data:,">
-  <meta name="description" content="Science and Biology class homepages for the 2026-27 academic year.">
-  <title>Science Lessons | 2026-27</title>
-  <link rel="preload" as="image" href="assets/portal-images/lab-safety.jpg">
-  <link rel="stylesheet" href="assets/portal.css">
-  <link rel="stylesheet" href="assets/science-lab.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello, and welcome</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #f7f7f2;
+      color: #242424;
+      font-family: system-ui, sans-serif;
+    }
+    h1 {
+      margin: 0;
+      padding: 1rem;
+      font-size: clamp(2rem, 6vw, 4rem);
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-  <header class="site-header">
-    <div class="shell site-header__inner">
-      <a class="brand" href="./">Science Lessons</a>
-      <nav class="header-nav" aria-label="Main navigation"><a class="header-link" href="#classes">Choose a class</a><a class="header-link" href="science-lab/">Science Lab</a><a class="header-link" href="innovation-hub/">NEXT Studio</a></nav>
-    </div>
-  </header>
-
   <main>
-    <section class="shell portal-hero">
-      <div>
-        <p class="hero-kicker">Academic year 2026-27</p>
-        <h1>Choose your class</h1>
-        <p class="hero-copy">Open your class homepage, choose a unit, then start the lesson you need.</p>
-      </div>
-      <div class="hero-gallery" aria-label="Current science lesson imagery">
-        <img src="assets/portal-images/lab-safety.jpg" alt="Pupils working safely in a school science laboratory" width="1000" height="562" fetchpriority="high">
-        <img src="assets/portal-images/shark-engineering.jpg" alt="Shark-inspired engineering and forces context" width="760" height="427">
-        <img src="assets/portal-images/cell-micrographs.jpg" alt="Light micrographs used in the cell biology unit" width="879" height="1000">
-      </div>
-    </section>
-
-    <section class="shell directory" id="classes">
-      <div class="section-intro">
-        <h2>Current classes</h2>
-        <p>Each class has its own homepage. Units collect the lessons in teaching order.</p>
-      </div>
-
-      <section class="class-group" aria-labelledby="ks3-heading">
-        <div class="class-group__heading">
-          <h3 id="ks3-heading">KS3</h3>
-          <p>Years 7-9 Science</p>
-        </div>
-        <div class="class-grid">
-          <a class="class-card" href="classes/7-sci-01/">
-            <div class="class-card__meta"><span class="class-card__year">Year 7</span><span class="class-code">7/SCI/01</span></div>
-            <div><h4>Science</h4><p>Key Stage 3 Science</p></div>
-            <div class="card-action"><span>Open class homepage</span><span aria-hidden="true">→</span></div>
-          </a>
-
-          <a class="class-card" href="classes/7-sci-04/">
-            <div class="class-card__meta"><span class="class-card__year">Year 7</span><span class="class-code">7/SCI/04</span></div>
-            <div><h4>Science</h4><p>Key Stage 3 Science</p></div>
-            <div class="card-action"><span>Open class homepage</span><span aria-hidden="true">→</span></div>
-          </a>
-
-          <a class="class-card" href="classes/8-sci-04/">
-            <div class="class-card__meta"><span class="class-card__year">Year 8</span><span class="class-code">8/SCI/04</span></div>
-            <div><h4>Science</h4><p>Key Stage 3 Science</p></div>
-            <div class="card-action"><span>Open class homepage</span><span aria-hidden="true">→</span></div>
-          </a>
-
-          <a class="class-card" href="classes/9-sci-z/">
-            <div class="class-card__meta"><span class="class-card__year">Year 9</span><span class="class-code">9/SCI/Z</span></div>
-            <div><h4>Science</h4><p>Key Stage 3 Science</p></div>
-            <div class="card-action"><span>Open class homepage</span><span aria-hidden="true">→</span></div>
-          </a>
-        </div>
-      </section>
-
-      <section class="class-group" aria-labelledby="igcse-heading">
-        <div class="class-group__heading">
-          <h3 id="igcse-heading">IGCSE</h3>
-          <p>International GCSE Biology</p>
-        </div>
-        <div class="class-grid">
-          <a class="class-card" href="classes/10-bio-tri2/">
-            <div class="class-card__meta"><span class="class-card__year">Year 10</span><span class="class-code">10/Bio/Tri2</span></div>
-            <div><h4>Triple Biology</h4><p>Pearson Edexcel International GCSE Biology</p></div>
-            <div class="card-action"><span>Open class homepage</span><span aria-hidden="true">→</span></div>
-          </a>
-        </div>
-      </section>
-
-      <section class="class-group" aria-labelledby="btec-heading">
-        <div class="class-group__heading">
-          <h3 id="btec-heading">BTEC</h3>
-          <p>Applied Science</p>
-        </div>
-        <div class="class-grid">
-          <a class="class-card" href="classes/10-bio-btec/">
-            <div class="class-card__meta"><span class="class-card__year">Year 10</span><span class="class-code">10/Bio/BTEC</span></div>
-            <div><h4>BTEC Applied Science</h4><p>Biology course resources</p></div>
-            <div class="card-action"><span>Open class homepage</span><span aria-hidden="true">→</span></div>
-          </a>
-
-          <a class="class-card" href="classes/11-bio-btec/">
-            <div class="class-card__meta"><span class="class-card__year">Year 11</span><span class="class-code">11/Bio/BTEC</span></div>
-            <div><h4>BTEC Applied Science</h4><p>Biology course resources</p></div>
-            <div class="card-action"><span>Open class homepage</span><span aria-hidden="true">→</span></div>
-          </a>
-        </div>
-      </section>
-    </section>
-    <section class="shell portal-lab" aria-labelledby="science-lab-heading"><div class="lab-unit-link"><div><h2 id="science-lab-heading">Science Lab</h2><p>Choose Year 7 electricity, Year 8 gravity and space, or Year 9 mechanics. Open the investigation set by your teacher.</p></div><a class="secondary-action" href="science-lab/">Choose your year in Science Lab →</a></div></section>
-    <section class="shell portal-lab" id="innovation-hub" aria-labelledby="innovation-hub-heading"><div class="lab-unit-link"><div><h2 id="innovation-hub-heading">Innovation Hub</h2><p>Generate ideas, collaborate, test and improve. Explore practical Careers &amp; Future Readiness challenges, starting with Year 8 CREATE: Space Science Studio.</p></div><a class="secondary-action" href="innovation-hub/">Explore the Innovation Hub →</a></div></section>
+    <h1>Hello, and welcome</h1>
   </main>
-
-  <footer class="site-footer">
-    <div class="shell">Science and Biology resources for 2026-27</div>
-  </footer>
 </body>
 </html>
